@@ -1,0 +1,167 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp6657160.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav #part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-decoration: none;
+}
+nav h1{
+    font-size: 40px;
+}
+
+nav a{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+section #text1{
+    /* background-color: #fff; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+section #text1 h1{
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2px;
+}
+section #text2{
+    /* background-color: #f50e0e; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 40px;
+    font-family:cursive;
+    
+   
+   
+}
+section #text2 h1{
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2px;
+    margin-top: 0px;
+   
+}
+section #text1 #video{
+    height:70px ;
+    width: 400px;
+    background-color: rgb(9, 231, 243);
+     border-radius: 70px;
+     margin-top: 75px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNSKks69ly719OZjvqgNAFP9JtrOSwjssXXg&s);
+    background-size: cover;
+    padding: 10px;
+    background-position: center;
+    
+     
+}
+#video #play{
+    height: 100%;
+    width: 70px;
+    background-color: rgb(18, 18, 18);
+    border-radius:100px;
+    border: 2px solid rgb(121, 119, 119);
+}
+#play i{
+    font-size: 25px;
+    color: rgb(232, 233, 234);
+       display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+#image{
+    margin: 50px;
+    position: relative;
+    height: 300px;
+    width: 90%;
+    background-color: brown;
+    margin-left: 5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-image: url(https://t6c9u7h6.delivery.rocketcdn.me/wp-content/uploads/2016/06/musical-rondeau-poetry-prompt.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 120px;
+    
+}
+#image #arrow{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 100px;
+    position: absolute;
+    right: 5%;
+    top: -10%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 50px;
+    border: 4px solid #6d6d6d;
+    font-weight: 500;
+    color: azure;
+}
+footer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    
+}
+
+footer #a{
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 20px;
+    line-height: 0px;  
+    position: absolute;   
+    left: 0%;
+   
+    
+}
+footer #b{
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 20px;
+    line-height: 0px;   
+    position: absolute;   
+    left: 26%;
+}
+
+#a i{
+       display: flex;
+    align-items:center;
+    justify-content:center;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+} 
+#b i{
+       display: flex;
+    align-items:center;
+    justify-content:center;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+} 
+
